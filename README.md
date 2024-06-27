@@ -36,6 +36,81 @@ Homework :-
 2. difference between var & const.
 3. what do you mean by hoasting. 
 
+Datatypes in JS :- 
+- data types is an attributes associated with a piece of data that tells a computer system how to interpet its value.
+- in data types we used "typeof" operator to know that what type of data it is.
+- mainly in javascript their are 2 types of data types.
+
+1. primitive :- 
+- in javascript their are 7 types of primitive data types.
+1. Number - Number are the type of data types those it contain some numerical values.
+2. Boolean - in Boolean data types we get boolean value like true, false.
+3. Undefined - in undefined data types the data is not define so that it will show undfined.
+4. Null - in this data type we get null for the value means nothing.
+5. bigInt - in bigInt we will get big integer value
+6. Symbol - in symbol we will get whole symbol as well as the value we get for the data type
+7. String - String is a type of data type that can hold some character like names... 
+
+2. Reference or Non-primitive :- 
+
+- non primitive data type are the type of data type that can hold multiple items in a single time
+- non primitive data types are - object, array, function etc.. 
+- objects is a non primitive data types which can hold multiple of item in one single entity.
+- mainly objects are working on (key:value) pair.
+- the left side part is our keys of object & right side parts are the objects of the project. 
+ex. object - 
+
+let student = {
+    name : "mithun pani",
+    mob-no : 8328892097,
+    college : "GIFT"
+}
+
+Operator in JS :- 
+- operator are the key features to do some task or operate some task. 
+- ex. A + B 
+- in this above example A,B are the operands & "+" is the operator.
+- there are 5 types of operator are their in javascript 
+1. arithmetic operator  
+    (+,-,*,/)
+    modulus -> %
+    exponentiation -> **
+
+2. unary operator 
+    increment (++)
+    decreament (--)
+
+3. assignment operator
+    (assign some values to the variables)
+    (=, +=, -=, *=, %=, **=)
+
+4. comparison operator
+    (compair the values)
+    it gives the result of true or false. 
+    equal to -> ==
+    not equal to -> !=
+    equal to & type -> ===
+    not equal to & type -> !==
+
+5. logical operator 
+    checks the logic of the operator(true/false)
+    logical AND (&&) -> table of logical AND operator is -> 
+    cond1  cond2  res(&&)
+    T       T      T
+    T       F      F
+    F       T      F
+    F       F      F
+
+    logical OR (||) -> table of logical OR operator is -> 
+    cond1  cond2  res(&&)
+    T       T      T
+    T       F      T
+    F       T      T
+    F       F      F
+
+    logical Not (!)
+
+
 
 
 
