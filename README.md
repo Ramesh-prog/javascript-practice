@@ -110,6 +110,74 @@ Operator in JS :-
 
     logical Not (!)
 
+conditional statement :- 
+
+- to implement some condition in the code.
+- there are 3 types of conditional statement are there 
+1. if condition :- 
+    - if condition is true then statement is true otherwise false. 
+    syntax - 
+    if(condition){
+        statement
+    }
+
+2. if-else condition :- 
+    - if condition is true then if bloack is executed otherwise its terminate to else condition.
+    syntax - 
+    if(condition){
+        statement
+    } else {
+        statement
+    }
+
+3. else-if condition :- 
+    - its check the condition multiple times where the condition is true. 
+    syntax - 
+    if(condition){
+        statement
+    } else if(condition){
+        statement
+    } else if(condition){
+        statement
+    } else {
+        statement
+    }
+
+Loops in JS :- 
+
+- loops are used to execute a piece of code again and again.
+1. For Loop :-
+    syntax - 
+    for (initialization; condition; updation){
+        statement
+    }
+    ex - 
+    for(let i = 1;i <= 5; i++){
+        console.log("web bocket")
+    }
+
+    web bocket
+    web bocket
+    web bocket
+    web bocket
+    web bcoket
+
+2. while loop :- 
+    syntax - 
+    while (condition){
+        statement
+        updattion
+    }
+
+3. Do-while loop :- 
+    syntax - 
+    do {
+        statement
+        updation
+    } while (condition)
+
+4. For-of loop :- it iterate on string & array
+5. For-in loop :- it iterate over objects (key-value) pair. 
 
 
 
