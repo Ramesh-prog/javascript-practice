@@ -249,6 +249,28 @@ array method :-
 - slice() -> returns a piece of the array.
 - splice() -> change original array (add, remove, replace)
 
+Function :- 
+
+- block of code that perform a specific task. can be invoked whenever needed. 
+- syntax :- 
+function Definition :-
+
+function functionName(parameter){
+    // do some work
+}
+
+function Calling :- functionName(arguments);
+
+Arrow function :- 
+
+- compact way of writting a function.
+- syntax :- 
+const functionName = (param1, param2) => {
+   // do some task
+}
+
+
+
 
 
 
