@@ -269,8 +269,32 @@ const functionName = (param1, param2) => {
    // do some task
 }
 
+For Each Loop in Arrays :- 
 
+- arr.forEach(callBackFunction)
+- callbackFunction: here, it is a function to execute for each element in the array.
+- A callback is a function passed as an argument to another function. 
 
+syntax :- 
+arr.forEach((val) => {
+    console.log(val);
+})
 
+Map methods of Array:- 
 
+- creates a new array with the results of some operation. The value its callback returns are used to form new array. 
 
+- arr.map(callbackFunction(value,index,array))
+ex. 
+let newArr = arr.map((val) => {
+    return val * 2;
+})
+
+Filter Method of Array:- 
+
+- creates a new array of element that gives true for a condition/filter.
+eg. all even elements.
+
+let newArr = arr.filter( (val) => {
+    return val % 2 == 0;
+})
