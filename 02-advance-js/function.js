@@ -5,24 +5,31 @@
 
 // myFunction();
 // myFunction();
-// // myFunction();
+// myFunction();
+
+
+
 
 // function myFunc(msg){ // parameter(input)
 //     console.log(msg);
 // }
 
-// myFunc("today is a great day and GIFT is best for technical education") // argument
+// myFunc("today is a good day") // argument
 
 // Function -> 2 numbers sum 
 
-// function sum(a, b){
+// function sum(a,b){
 //     c = a + b;
 //     console.log("sum of a + b is ", c);
+//     return c;
 // }
 
 // sum(2,4);
 
-// sum function 
+
+
+// sum function
+
 // function sum(a, b){
 //     return a + b;
 // }
@@ -40,18 +47,41 @@
 // }
 
 // arrow function in MUL
-// const arrowfunc1 = (a, b) => {
+// const funcMul = (a, b) => {
 //     c = a * b;
 //     console.log(c);
 // }
 
-// arrowfunc1(3,4);
+// funcMul(3,4);
 
 // practice question :- 
 // Q1. create a function using the "function" keyword that takes a strict as an argument & return the 
 // number of vowels in the string.  (a,e,i,o,u)
 
 // Q2. Create an arrow function to perform same task
+
+
+function countVowel(str){
+    let count = 0;
+    for (const char of str){
+        if(
+            char === "a" || char === "e" || char === "i" || char === "o" || char === "u"
+        ) {
+            count++;
+        }
+    }
+    console.log("vowel present = ",count)
+}
+
+countVowel("javascript")
+
+
+
+
+
+
+
+
 
 // forEach Loop in array
 
@@ -93,10 +123,10 @@
 
 // array filter method 
 // all odd number from 1 to 9
-let arr = [1,2,3,4,5,6,7,8,9];
+// let arr = [1,2,3,4,5,6,7,8,9];
 
-let newArr = arr.filter((val) => {
-    return val % 2 !== 0; // logics
-})
+// let newArr = arr.filter((val) => {
+//     return val % 2 !== 0; // logics
+// })
 
-console.log(newArr);
+// console.log(newArr);
